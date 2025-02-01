@@ -6,7 +6,7 @@ import css from "../Assets/Icons/css.svg";
 import javascript from "../Assets/Icons/javascript.svg";
 import php from "../Assets/Icons/php.svg";
 import cpp from "../Assets/Icons/cpp.svg";
-import fpc from "../Assets/Icons/fpc.gif";
+import python from "../Assets/Icons/python.svg";
 import typescript from "../Assets/Icons/typescript.svg";
 // Framework
 import bootstrap from "../Assets/Icons/bootstrap.svg";
@@ -58,7 +58,7 @@ const Skill = () => {
                                 </div>
                                 <div className="col-4 col-md-3 d-flex align-items-center justify-content-center mb-4">
                                     <div className="skill_icon">
-                                        <img src={fpc} alt="" width={50}/>
+                                        <img src={python} alt="" width={50}/>
                                     </div>
                                 </div>
                                 <div className="col-4 col-md-3 d-flex align-items-center justify-content-center mb-4">
