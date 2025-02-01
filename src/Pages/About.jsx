@@ -20,8 +20,6 @@ const About = () => {
         return () => clearInterval(typingAnimation);
     }, [charIndex]);
 
-
-
     return (
         <>
             <NavigationBar/>
@@ -31,8 +29,8 @@ const About = () => {
                         <div className="col-11 col-lg-7 me-lg-5 m-auto">
                             <h1 className="fw-bold">About Me</h1>
                             <h4 className="mt-3 mb-3 fw-bold">{text}<span>|</span></h4>
-                            <p>Halo, nama saya Muhammad Reynald Saman. Saya tinggal di Gorontalo, Indonesia. Saya lahir di Gorontalo pada tanggal 27 Maret 2007. Saat ini, saya berusia 17 tahun. Saya adalah siswa jurusan Rekayasa Perangkat Lunak dan GIM di SMK Negeri 3 Gorontalo.</p>
-                            <p>Coding telah menjadi hobi saya sejak saya berusia 14 tahun, dan saya menyukai komputer sejak saya masih kecil. Selain coding, saya juga menikmati mendengarkan musik, terutama dari JKT48. Saya juga memiliki minat dalam bermain game. Valorant, GTA San Andreas, dan GTA V menjadi beberapa permainan favorit yang sering saya mainkan.</p>
+                            <p>Hello! I'm Muhammad Reynald Saman, you can call me Aldo. I'm currently living in Gorontalo, Indonesia. I study at SMK Negeri 3 Gorontalo. I'm passionate about coding and constantly strive to enhance my skills by exploring new technologies and developing innovative solutions. My interest in computers began when I was very young, and it has shaped my passion for technology.</p>
+                            <p>In addition to my passion for software development, I also have a strong interest in system administration. I enjoy the challenges of managing infrastructure, ensuring servers run smoothly, and maintaining the security and availability of systems. Also, the website you're currently viewing is hosted on my personal home server. This project has provided me with hands-on experience in managing web hosting, configuring servers, and ensuring the site's security and uptime.</p>
                         </div>
                         <div className="col image">
                             <img src={AldoSaman} alt="Aldo Saman"/>
